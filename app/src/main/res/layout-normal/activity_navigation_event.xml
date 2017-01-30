@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_drawer"
+    tools:context="com.app.caresociousapp.NavigationEventActivity">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnProfileOne"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btn_back"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnProfileOne"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnMedicalRecord"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnHome"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnFamilyMember"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnMedicalRecord"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnServiceRequest"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnFamilyMember"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnMedicament"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnServiceRequest"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnTreatment"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnMedicament"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnDirective"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnTreatment"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnProfileTwo"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnDirective"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
+

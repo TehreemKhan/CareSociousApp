@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="com.app.caresociousapp.NavigationEventActivity">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnProfileOne"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/nav_drawer_header" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnProfileOne"
+        android:alpha="0.5"
+        android:background="#EEEEEE"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:weightSum="9">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/home_btn_r"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btnMedicalRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/medicalrecord_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnFamilyMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/familymember_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnServiceRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/servicerequest_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnMedicament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/medicament_btn_r"
+            android:padding="7dp" />
+
+
+        <Button
+            android:id="@+id/btnTreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/treatment_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnDirective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/directive_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/library_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btnProfileTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/profile_btn_r"
+            android:padding="7dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:padding="7dp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
