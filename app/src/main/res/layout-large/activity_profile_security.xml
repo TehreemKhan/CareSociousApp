@@ -8,7 +8,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="280dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/profile_privacy_header" />
@@ -48,7 +48,7 @@
     <Button
         android:id="@+id/btn_profile"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/btnHome"
         android:background="@android:color/transparent" />
 
@@ -102,9 +102,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ll_horizontal"
+
         android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:text="Privacy &amp; Security"
+        android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/colorPrimary"
         android:textSize="25sp" />
