@@ -6,6 +6,12 @@
     android:background="#EEEEEE"
     tools:context="com.app.caresociousapp.NavigationEventActivity">
 
+    <Button
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/toolbar_edit" />
 
     <Button
         android:id="@+id/btn_back"
@@ -14,12 +20,13 @@
         android:layout_alignParentTop="true"
         android:background="@android:color/transparent" />
 
+
     <Button
         android:id="@+id/btnProfileOne"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/nav_drawer_header" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_below="@id/toolbar"
+        android:background="@drawable/nav_drawer_header_edit" />
 
     <LinearLayout
         android:layout_width="wrap_content"
